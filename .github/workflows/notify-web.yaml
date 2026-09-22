@@ -1,0 +1,17 @@
+name: Notify Web Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger baseline-web Rebuild
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEB_ACCESS }}
+          repository: aaaaalexis/baseline-web
+          event-type: marketplace_updated

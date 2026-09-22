@@ -1,0 +1,99 @@
+name: Create Marketplace Submission PR
+
+on:
+  push:
+    branches:
+      - "submission-*"
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+
+          # Find the specific JSON file modified/added in the submission commit
+          JSON_FILE=$(git log -1 --name-only --format="" | grep -E '^content/.*\.json$' | head -n 1 || true)
+          TYPE=$(echo "$JSON_FILE" | grep -oE 'preset|palette' || true)
+
+          # Find images uploaded in this submission commit
+          IMAGE_FILES=$(git log -1 --name-only --format="" | grep -E '^assets/images/.*\.(png|jpg|jpeg|webp)$' || true)
+          IMAGES_MD=""
+
+          if [ -n "$IMAGE_FILES" ]; then
+            IMAGES_MD="### Screenshots"$'\n\n'
+            for IMG_PATH in $IMAGE_FILES; do
+              RAW_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH_NAME}/${IMG_PATH}"
+              IMAGES_MD="${IMAGES_MD}<img src=\"${RAW_URL}\" />"$'\n\n'
+            done
+          fi
+
+          TITLE="Marketplace Submission: ${BRANCH_NAME}"
+          BODY="Automated marketplace submission branch: \`${BRANCH_NAME}\`."
+
+          if [ -n "$JSON_FILE" ] && [ -f "$JSON_FILE" ]; then
+            ID=$(jq -r '.id // empty' "$JSON_FILE" 2>/dev/null || true)
+            NAME=$(jq -r '.name // empty' "$JSON_FILE" 2>/dev/null || true)
+            AUTHOR=$(jq -r '.author.name // empty' "$JSON_FILE" 2>/dev/null || true)
+            AUTHOR_URL=$(jq -r '.author.url // empty' "$JSON_FILE" 2>/dev/null || true)
+            DESC=$(jq -r '.description // empty' "$JSON_FILE" 2>/dev/null || true)
+            TAGS=$(jq -r 'if .tags and (.tags | length > 0) then (.tags | join(", ")) else empty end' "$JSON_FILE" 2>/dev/null || true)
+
+            AUTHOR_MD="${AUTHOR:-Anonymous}"
+            if [ -n "$AUTHOR_URL" ]; then
+              AUTHOR_MD="[${AUTHOR_MD}](${AUTHOR_URL})"
+            fi
+
+            STYLES_MD=""
+            STYLES_JSON=$(jq '.styles // empty' "$JSON_FILE" 2>/dev/null || true)
+            if [ -n "$STYLES_JSON" ] && [ "$STYLES_JSON" != "null" ] && [ "$STYLES_JSON" != "{}" ]; then
+              STYLES_MD="<details>
+          <summary>Style Configuration</summary>
+
+          \`\`\`json
+          ${STYLES_JSON}
+          \`\`\`
+
+          </details>"$'\n\n'
+            fi
+            
+            [ -n "$NAME" ] && TITLE="Marketplace Submission: ${NAME}"
+            BODY=$(cat <<EOF
+          ### New Marketplace Submission
+
+          **ID:** ${ID:-N/A}
+          **Name:** ${NAME:-N/A}
+          **Author:** ${AUTHOR_MD}
+          **Description:** ${DESC:-N/A}
+          **Tags:** ${TAGS:-N/A}
+
+          ${IMAGES_MD}${STYLES_MD}---
+          *Submitted automatically via Baseline Marketplace.*
+          EOF
+          )
+          fi
+
+          # Create PR if one does not already exist
+          EXISTS=$(gh pr list --head "$BRANCH_NAME" --json number -q '.[0].number' 2>/dev/null || true)
+          if [ -z "$EXISTS" ]; then
+            gh pr create \
+              --base main \
+              --head "$BRANCH_NAME" \
+              --title "$TITLE" \
+              --body "$BODY" \
+              ${TYPE:+--label "$TYPE"}
+          fi
