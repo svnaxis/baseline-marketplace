@@ -1,13 +1,13 @@
 {
   "id": "stone-gnome",
   "name": "Stone Gnome",
-  "description": "Native Gnome feel and a modern look. [Extra tweaks](https://github.com/broad-bean1/Stone-Gnome)",
+  "description": "A modern Linux-inspired preset tailored for GNOME desktop users. Featuring warm stone-gray surfaces and compact toolbar styling.",
   "createdAt": "2026-01-13",
   "author": {
     "name": "Bean",
     "url": "https://github.com/broad-bean1"
   },
-  "tags": ["preset", "gnome", "linux", "modern", "clean"],
+  "tags": ["gnome", "linux", "minimal", "developer"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@color-red@@dark": "#E01B24",
@@ -132,7 +132,6 @@
     "baseline-style@@blockquote-background-color@@dark": "#3584E400",
     "baseline-style@@strike-lists-off": true,
     "baseline-style@@img-grid": true,
-    "baseline-style@@zoom-off": true,
     "baseline-style@@pdf-invert-dark": true,
     "baseline-style@@tag-radius": "16px"
   }

@@ -1,13 +1,13 @@
 {
   "id": "atom",
   "name": "Atom",
-  "description": "Based on the classic One Dark and Light syntax colors.",
+  "description": "The iconic syntax color scheme from the Atom editor, adapted for light and dark modes. Features balanced cyan, purple, and green accents over soft charcoal and light-gray backgrounds.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "GitHub",
     "url": "https://github.com/atom/atom"
   },
-  "tags": ["palette", "developer"],
+  "tags": ["developer", "cool", "minimal"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FAFAFA",
     "baseline-style@@background-primary-alt@@light": "#EAEAEB",

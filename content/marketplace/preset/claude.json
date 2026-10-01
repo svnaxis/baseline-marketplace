@@ -1,13 +1,13 @@
 {
   "id": "claude",
-  "name": "Certainly!",
-  "description": "Absolutely! Here's a preset with minimal and calming design.",
+  "name": "Claude",
+  "description": "Inspired by Claude's conversational reading interface. Combines warm paper-like surfaces, generous line spacing, and elegant Charter serif typography for relaxed, long-form writing and reflection.",
   "createdAt": "2026-03-29",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "minimalist", "calming", "clean", "soothing"],
+  "tags": ["warm", "soft", "editorial"],
   "styles": {
     "baseline-style@@background-contrast-light": "contrast-light-tonal",
     "baseline-style@@background-contrast-dark": "contrast-dark-tonal",

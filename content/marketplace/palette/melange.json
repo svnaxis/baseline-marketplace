@@ -1,13 +1,13 @@
 {
   "id": "melange",
   "name": "Melange",
-  "description": "A warm, earthy palette.",
+  "description": "An earthy, mineral-toned palette by Sergio A. Vargas. Uses warm clay, ochre, terracotta, and soft stone shades to provide an organic, low-fatigue writing environment.",
   "createdAt": "2025-08-05",
   "author": {
     "name": "Sergio A. Vargas",
     "url": "https://github.com/savq/melange-nvim"
   },
-  "tags": ["palette", "warm", "earthy", "cozy"],
+  "tags": ["warm", "soft", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#F0ECEA",
     "baseline-style@@background-primary-alt@@light": "#E9E1DB",

@@ -1,13 +1,13 @@
 {
   "id": "ocean",
   "name": "Ocean",
-  "description": "Inspired by [Notion](https://www.notion.com/). Effortlessly minimal, designed for clarity.",
+  "description": "An open, workspace-centric preset inspired by [Notion](https://www.notion.com/). Combines generous whitespace, gentle cool-blue highlights, and clean typography to keep your notes organized and readable.",
   "createdAt": "2025-09-15",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "notion", "minimalist", "clean", "blue"],
+  "tags": ["notion", "cool", "minimal", "editorial"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@background-primary@@light": "#FFF",
@@ -57,8 +57,6 @@
     "baseline-style@@hide-vault-switcher-off": true,
     "baseline-style@@nav-indentation-guide-width": "0px",
     "baseline-style@@font-text-override": "ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI'",
-    "baseline-style@@readable-spacing": true,
-    "baseline-style@@readable-spacing-modifier": 0.25,
     "baseline-style@@file-header-visibility": "view-header-title-always",
     "baseline-style@@file-header-justify": "left",
     "baseline-style@@active-line-style": "active-line-block",

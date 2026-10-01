@@ -1,13 +1,13 @@
 {
   "id": "midnightblue",
   "name": "Midnight Blue",
-  "description": "When everyone is asleep, except you.",
+  "description": "A rich nocturnal theme configured for low-light environments and late-night focus sessions. Combines deep indigo and midnight navy tones with crisp Avenir typography to reduce eye strain. When everyone is asleep, except you.",
   "createdAt": "2026-02-15",
   "author": {
     "name": "Daniel A",
     "url": "https://danagafonov.info"
   },
-  "tags": ["preset", "blue", "developer", "calming"],
+  "tags": ["cool", "dark", "developer"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@color-red@@dark": "#FF6666",
@@ -50,7 +50,6 @@
     "baseline-style@@font-interface-override": "Avenir",
     "baseline-style@@density-modifier": "0.75",
     "baseline-style@@element-style": "input-adwaita",
-    "baseline-style@@font-ui-modifier": 2,
     "baseline-style@@anim-motion-baseline": "cubic-bezier(0.32, 0.72, 0, 1)",
     "baseline-style@@anim-speed-modifier": 1.4,
     "baseline-style@@header-height": "50px",
@@ -65,7 +64,6 @@
     "baseline-style@@active-line-style": "active-line-off",
     "baseline-style@@inline-title-font": "Helvetica",
     "baseline-style@@metadata-heading-off": true,
-    "baseline-style@@readable-spacing": true,
     "baseline-style@@h1-font": "Helvetica",
     "baseline-style@@h1-size": "1.6em",
     "baseline-style@@h1-l": true,
@@ -104,7 +102,6 @@
     "baseline-style@@link-external-decoration": "none",
     "baseline-style@@media-width": "media-width-fit",
     "baseline-style@@img-grid": true,
-    "baseline-style@@zoom-off": true,
     "baseline-style@@table-text-align-header": "start",
     "baseline-style@@table-text-align-body": "start",
     "baseline-style@@tag-color@@dark": "#007AEB",

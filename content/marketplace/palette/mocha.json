@@ -1,13 +1,13 @@
 {
   "id": "mocha",
   "name": "Mocha",
-  "description": "Dark and vibrant.",
+  "description": "The darkest and most popular flavor of Catppuccin. Combines an ink-black velvet background with brilliant pastel highlights for maximum visual pop in dark mode.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Catppuccin",
     "url": "https://github.com/catppuccin/catppuccin"
   },
-  "tags": ["palette", "catppuccin", "vibrant", "pastel"],
+  "tags": ["catppuccin", "dark", "pastel"],
   "styles": {
     "baseline-style@@background-primary@@dark": "#11111B",
     "baseline-style@@background-primary-alt@@dark": "#181825",

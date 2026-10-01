@@ -1,13 +1,13 @@
 {
   "id": "everforest",
   "name": "Everforest",
-  "description": "A comfortable, nature-inspired palette with soft green tones.",
+  "description": "A warm, nature-inspired palette developed by Sainnhe Park. Draws on organic forest greens, warm parchment backgrounds, and earthy earth tones to soothe your eyes during extended reading.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Sainnhe Park",
     "url": "https://github.com/sainnhe/everforest"
   },
-  "tags": ["palette", "earthy", "comfortable"],
+  "tags": ["warm", "soft", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FDF6E3",
     "baseline-style@@background-primary-alt@@light": "#EFEBD4",

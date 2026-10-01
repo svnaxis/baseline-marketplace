@@ -1,13 +1,13 @@
 {
   "id": "verseflow",
   "name": "Verse Flow",
-  "description": "A joyful, elegant preset focused on readability and ease of use.",
+  "description": "A joyful, elegant, typography-focused preset optimized for multilingual reading and effortless legibility. With balanced vertical rhythm for comfortable, long-form drafting.",
   "createdAt": "2026-01-03",
   "author": {
     "name": "Jaren Lo",
     "url": "https://qnury.es"
   },
-  "tags": ["preset", "elegant", "legible", "accessible", "clean"],
+  "tags": ["editorial", "minimal", "accessible"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@color-red@@dark": "#FF306C",
@@ -75,7 +75,6 @@
     "baseline-style@@active-line-color": "active-line-color-accent",
     "baseline-style@@inline-title-size": "2.018em",
     "baseline-style@@metadata-heading-off": true,
-    "baseline-style@@readable-spacing": true,
     "baseline-style@@h1-font": "'Baskervville', 'GenRyuMin2 TC', 'Songti SC', serif",
     "baseline-style@@h1-size": "1.5em",
     "baseline-style@@h1-l": true,

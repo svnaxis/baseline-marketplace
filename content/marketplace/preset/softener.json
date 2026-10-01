@@ -1,12 +1,12 @@
 {
   "id": "softener",
   "name": "Softener",
-  "description": "Pastel colors and spacious workspace for your comfort.",
+  "description": "A gentle, open workspace featuring muted pastel accents and generous padding. Designed to provide a comfortable, welcoming environment for drafting, journaling, and daily planning.",
   "createdAt": "2025-09-15",
   "author": {
     "name": "chuuuby"
   },
-  "tags": ["preset", "pastel", "comfortable", "cozy", "accessible"],
+  "tags": ["pastel", "soft", "accessible"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@color-red@@dark": "#BD8183",

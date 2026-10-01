@@ -1,13 +1,13 @@
 {
   "id": "nord",
   "name": "Nord",
-  "description": "An arctic, north-bluish color palette for a clean, cold look.",
+  "description": "An arctic, north-bluish palette created by Sven Greb. Built upon polar night blues, frozen cyan highlights, and muted aurora accents for a crisp, unified terminal and note aesthetic.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Sven Greb",
     "url": "https://github.com/nordtheme/nord"
   },
-  "tags": ["palette", "cool", "blue", "clean", "developer"],
+  "tags": ["developer", "cool", "minimal"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#ECEFF4",

@@ -1,13 +1,13 @@
 {
   "id": "catppuccin",
   "name": "Catppuccin",
-  "description": "Soothing, high-contrast pastel colors.",
+  "description": "The community-favorite pastel color suite engineered for warm, low-fatigue viewing. Delivers soft confectionary accents alongside balanced light and dark base tones.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Catppuccin",
     "url": "https://github.com/catppuccin/catppuccin"
   },
-  "tags": ["palette", "catppuccin", "soothing", "pastel", "colorful"],
+  "tags": ["catppuccin", "pastel", "soft"],
   "styles": {
     "baseline-style@@background-primary@@light": "#F0F1F5",
     "baseline-style@@background-primary-alt@@light": "#DCE0E8",

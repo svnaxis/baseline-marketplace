@@ -1,13 +1,13 @@
 {
   "id": "adwaita",
   "name": "Adwaita",
-  "description": "Refined sophistication of GNOME's design language.",
+  "description": "An adaptation of the GNOME desktop design language. Built with Adwaita Sans typography, rounded surface cards, and balanced contrast for a native Linux workstation feel.",
   "createdAt": "2026-02-11",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "gnome", "linux", "refined", "clean", "minimalist"],
+  "tags": ["gnome", "linux", "minimal", "accessible"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#FFF",

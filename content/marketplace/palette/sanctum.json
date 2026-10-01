@@ -1,13 +1,13 @@
 {
   "id": "sanctum",
   "name": "Sanctum",
-  "description": "A serene space of retreat.",
+  "description": "A serene, monastic palette by José Daniel Mourão. Utilizes gentle warm parchment in light mode and quiet umber stone in dark mode to promote deep focus and reflective thinking.",
   "createdAt": "2025-08-10",
   "author": {
     "name": "José Daniel Mourão",
     "url": "https://github.com/jdanielmourao/obsidian-sanctum"
   },
-  "tags": ["palette", "serene", "calming"],
+  "tags": ["soft", "warm", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FDFEFE",
     "baseline-style@@background-primary-alt@@light": "#F0EFED",

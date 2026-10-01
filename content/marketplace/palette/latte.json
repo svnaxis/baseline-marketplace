@@ -1,13 +1,13 @@
 {
   "id": "latte",
   "name": "Latte",
-  "description": "The light, high-contrast variant of the Catppuccin pastel theme.",
+  "description": "The dedicated light-mode edition of Catppuccin. Combines an airy off-white canvas with distinct pastel jewel tones, tailored for bright daytime work environments.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Catppuccin",
     "url": "https://github.com/catppuccin/catppuccin"
   },
-  "tags": ["palette", "catppuccin", "pastel"],
+  "tags": ["catppuccin", "pastel", "soft"],
   "styles": {
     "baseline-style@@background-primary@@light": "#DCE0E8",
     "baseline-style@@background-primary-alt@@light": "#E6E9EF",

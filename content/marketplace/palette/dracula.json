@@ -1,13 +1,13 @@
 {
   "id": "dracula",
   "name": "Dracula",
-  "description": "Vibrant for developers and programmers.",
+  "description": "The famous dark theme created by Zeno Rocha. Combines deep vampire-slate backgrounds with luminous cyan, purple, pink, and lime accents for punchy, high-contrast note-taking.",
   "createdAt": "2026-06-13",
   "author": {
     "name": "Dracula",
     "url": "https://github.com/dracula/dracula-theme"
   },
-  "tags": ["palette", "vibrant", "developer"],
+  "tags": ["developer", "dark", "vibrant"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFFBEB",
     "baseline-style@@background-primary-alt@@light": "#EFEDDC",

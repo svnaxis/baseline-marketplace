@@ -1,13 +1,13 @@
 {
   "id": "minimal",
   "name": "Minimal",
-  "description": "A distraction-free experience for your vault.",
+  "description": "A distilled, monochrome layout inspired by Kepano's Minimal aesthetic. Strips away visual clutter and extraneous chrome so you can focus entirely on writing and structured knowledge.",
   "createdAt": "2025-09-15",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "minimalist", "monochrome", "clean", "kepano"],
+  "tags": ["minimal", "monochrome", "kepano", "editorial"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@background-primary@@light": "#FFF",

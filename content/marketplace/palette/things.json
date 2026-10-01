@@ -1,13 +1,13 @@
 {
   "id": "things",
   "name": "Things",
-  "description": "A clean, functional palette inspired by [Things](https://culturedcode.com/things/).",
+  "description": "A focused, functional palette inspired by Cultured Code's [Things](https://culturedcode.com/things/). Pairs crisp neutral surfaces with clear blue task accents to highlight active work without distraction.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Cultured Code",
     "url": "https://culturedcode.com/things/"
   },
-  "tags": ["palette", "clean", "minimalist"],
+  "tags": ["apple", "minimal", "cool"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#F5F6F8",

@@ -1,13 +1,13 @@
 {
   "id": "sanctum",
   "name": "Sanctum",
-  "description": "A serene space of retreat, for thought and uninterrupted work.",
+  "description": "A quiet, contemplative preset designed for uninterrupted reading and deep research. Uses subdued tonal contrast, muted borders, and balanced typography to create a calm digital retreat.",
   "createdAt": "2025-09-08",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "serene", "calming", "minimalist"],
+  "tags": ["minimal", "soft", "editorial"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@background-primary@@light": "#FDFEFE",

@@ -1,13 +1,13 @@
 {
   "id": "sky",
   "name": "Sky",
-  "description": "A clean, airy blue-toned palette inspired by [Notion](https://www.notion.com/).",
+  "description": "An airy, open color palette created by Kepano. Combines clear sky-blue accents with crisp neutral backgrounds to bring a fresh, luminous feel to your note library.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "kepano",
     "url": "https://github.com/kepano/obsidian-minimal"
   },
-  "tags": ["palette", "cool", "blue", "clean", "notion", "kepano"],
+  "tags": ["kepano", "notion", "cool", "minimal"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#F7F6F4",

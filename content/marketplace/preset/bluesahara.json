@@ -1,13 +1,13 @@
 {
   "id": "bluesahara",
   "name": "Blue Sahara",
-  "description": "Based on Admin theme, but darker.",
+  "description": "A nocturnal variation of the Admin layout, pairing deep navy surfaces with warm accent tones. Designed for comfortable late-night writing and high-contrast dashboard workflows.",
   "createdAt": "2026-02-15",
   "author": {
     "name": "Dencel",
     "url": "https://github.com/dencelkbabu"
   },
-  "tags": ["preset", "sleek", "professional", "blue"],
+  "tags": ["cool", "dark", "high-contrast"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@background-primary@@dark": "#0B1018",
@@ -32,14 +32,12 @@
     "baseline-style@@layout-style": "layout-baseline",
     "baseline-style@@element-style": "input-adwaita",
     "baseline-style@@status-bar-style": "status-bar-default",
-    "baseline-style@@font-ui-modifier": 2,
     "baseline-style@@tab-top-left-style": "tab-top-left-labeled",
     "baseline-style@@active-line-style": "active-line-background",
     "baseline-style@@active-line-color": "active-line-color-accent",
     "baseline-style@@metadata-style": "metadata-cupertino",
     "baseline-style@@metadata-add-property": "metadata-add-property-hover",
     "baseline-style@@metadata-heading-off": true,
-    "baseline-style@@readable-spacing": true,
     "baseline-style@@h1-color@@dark": "#D14D41",
     "baseline-style@@h1-color@@light": "#D14D41",
     "baseline-style@@h2-color@@dark": "#D0A215",
@@ -57,7 +55,6 @@
     "baseline-style@@indentation-guide-color": "var(--color-accent)",
     "baseline-style@@media-width": "media-width-fit",
     "baseline-style@@img-grid": true,
-    "baseline-style@@zoom-off": true,
     "baseline-style@@row-hover": true,
     "baseline-style@@row-alt": true
   }

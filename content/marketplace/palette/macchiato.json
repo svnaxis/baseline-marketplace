@@ -1,13 +1,13 @@
 {
   "id": "macchiato",
   "name": "Macchiato",
-  "description": "A smooth, medium-dark pastel variant of the Catppuccin palette.",
+  "description": "A smooth, deep-toned variation of Catppuccin with richer contrast than Frappé. Pairs dark charcoal-violet bases with luminous pastel accents for focused evening reading.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Catppuccin",
     "url": "https://github.com/catppuccin/catppuccin"
   },
-  "tags": ["palette", "catppuccin", "pastel"],
+  "tags": ["catppuccin", "dark", "pastel", "soft"],
   "styles": {
     "baseline-style@@background-primary@@dark": "#181926",
     "baseline-style@@background-primary-alt@@dark": "#1E2030",

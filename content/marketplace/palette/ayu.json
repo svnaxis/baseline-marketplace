@@ -1,13 +1,13 @@
 {
   "id": "ayu",
   "name": "Ayu",
-  "description": "Simple, bright, and elegant for all-day comfortable work.",
+  "description": "A simple, bright, and elegant palette designed for comfortable all-day use. Pairs crisp warm-sand light tones with deep twilight dark surfaces, accented by vibrant gold and orange.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Ayu",
     "url": "https://github.com/ayu-theme/ayu-colors"
   },
-  "tags": ["palette", "elegant", "comfortable", "developer"],
+  "tags": ["developer", "warm", "vibrant"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#F8F9FA",

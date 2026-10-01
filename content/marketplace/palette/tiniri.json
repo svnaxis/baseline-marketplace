@@ -1,13 +1,13 @@
 {
   "id": "tiniri",
   "name": "Tiniri",
-  "description": "Optimized for calmness and coziness.",
+  "description": "A warm, tranquil palette designed by Vlad Gerasimov. Combines desert sand tones, terracotta highlights, and dusty teal accents for a gentle, cozy reading space.",
   "createdAt": "2025-08-10",
   "author": {
     "name": "Vlad Gerasimov",
     "url": "https://tiniri.vlad.studio/"
   },
-  "tags": ["palette", "calming", "cozy"],
+  "tags": ["warm", "soft", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FDFCFC",
     "baseline-style@@background-primary-alt@@light": "#FDFCFC",

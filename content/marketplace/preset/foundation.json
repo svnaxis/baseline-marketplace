@@ -1,13 +1,13 @@
 {
   "id": "foundation",
   "name": "Foundation",
-  "description": "A gentle foundation for thought, designed for comfort and calm.",
+  "description": "A balanced, low-stimulation layout designed for sustained focus and calm daily note-taking. Features soft neutral contrast and clean Inter typography that recedes into the background.",
   "createdAt": "2025-11-11",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "calming", "comfortable", "soothing", "minimalist"],
+  "tags": ["minimal", "soft", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@dark": "#0B0B0B",
     "baseline-style@@background-primary@@light": "#FCFCFC",
@@ -36,8 +36,6 @@
     "baseline-style@@nav-item-active-style": "nav-item-subtle",
     "baseline-style@@colorful-folders": "colorful-folders-dot",
     "baseline-style@@font-text-override": "Inter",
-    "baseline-style@@bold-modifier": 200,
-    "baseline-style@@readable-spacing": true,
     "baseline-style@@inline-title-color@@dark": "#EEEEEE",
     "baseline-style@@inline-title-color@@light": "#202020",
     "baseline-style@@h1-color@@dark": "#EEEEEE",

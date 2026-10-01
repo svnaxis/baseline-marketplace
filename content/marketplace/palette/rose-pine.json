@@ -1,13 +1,13 @@
 {
   "id": "rose-pine",
   "name": "Rosé Pine",
-  "description": "All natural pine, faux fur and a bit of soho vibes.",
+  "description": "A moody, warm aesthetic inspired by vintage nostalgia. Blends deep pine greens, dusty rose pinks, and warm gold accents over muted charcoal-violet backgrounds.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Rosé Pine",
     "url": "https://github.com/rose-pine/rose-pine-theme"
   },
-  "tags": ["palette", "earthy", "cozy"],
+  "tags": ["warm", "soft", "pastel"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFFAF3",
     "baseline-style@@background-primary-alt@@light": "#FAF4ED",

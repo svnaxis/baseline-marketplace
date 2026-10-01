@@ -1,13 +1,13 @@
 {
   "id": "adwaita",
   "name": "Adwaita",
-  "description": "Refined sophistication.",
+  "description": "The official color palette of the GNOME desktop environment. Offers balanced neutrals, clean slate grays, and understated accents that integrate naturally with modern Linux desktops.",
   "createdAt": "2026-01-15",
   "author": {
     "name": "GNOME",
     "url": "https://www.gnome.org/"
   },
-  "tags": ["palette", "gnome", "linux", "refined"],
+  "tags": ["gnome", "linux", "minimal", "accessible"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#FFF",

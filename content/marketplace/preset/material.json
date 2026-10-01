@@ -1,13 +1,13 @@
 {
   "id": "material",
   "name": "Material",
-  "description": "Vibrant layers and bold shadows from Google's Material Design.",
+  "description": "Brings Google's Material Design 3 aesthetic to your workspace. Features Google Sans typography, layered tonal surfaces, and bold accent colors that create a lively, well-structured interface.",
   "createdAt": "2026-02-11",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "vibrant", "modern", "colorful"],
+  "tags": ["material", "vibrant", "accessible"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@color-scheme-light": "material-light",

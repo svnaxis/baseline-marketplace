@@ -1,13 +1,13 @@
 {
   "id": "admin",
   "name": "Lazy Administrator",
-  "description": "High contrast, sleek and professional.",
+  "description": "A high-contrast workspace inspired by system administrator consoles. Features crisp borders, structured panels, and clean Avenir typography for clear information hierarchy during dense multitasking.",
   "createdAt": "2025-08-09",
   "author": {
     "name": "Bradley Wyatt",
     "url": "https://github.com/bwya77"
   },
-  "tags": ["preset", "sleek", "professional", "clean"],
+  "tags": ["high-contrast", "developer", "accessible", "minimal"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@background-contrast-light": "contrast-light-vivid",

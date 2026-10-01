@@ -1,13 +1,13 @@
 {
   "id": "frappe",
   "name": "Frappé",
-  "description": "A moderately dark and creamy pastel palette.",
+  "description": "The medium-dark flavor of the Catppuccin palette. Features a gentle slate-gray foundation that softens harsh contrast while preserving vivid pastel highlights.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Catppuccin",
     "url": "https://github.com/catppuccin/catppuccin"
   },
-  "tags": ["palette", "catppuccin", "pastel"],
+  "tags": ["catppuccin", "dark", "pastel", "soft"],
   "styles": {
     "baseline-style@@background-primary@@dark": "#232634",
     "baseline-style@@background-primary-alt@@dark": "#292C3C",

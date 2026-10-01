@@ -1,13 +1,13 @@
 {
   "id": "minimal",
   "name": "Minimal",
-  "description": "A distraction-free experience for your vault.",
+  "description": "A focused monochrome palette by Kepano. Eliminates unnecessary color distractions with carefully calibrated grayscale steps, leaving your content at the center of attention.",
   "createdAt": "2025-09-15",
   "author": {
     "name": "kepano",
     "url": "https://github.com/kepano/obsidian-minimal"
   },
-  "tags": ["palette", "minimalist", "monochrome", "clean", "kepano"],
+  "tags": ["minimal", "monochrome", "kepano", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#F5F5F5",

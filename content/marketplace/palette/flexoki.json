@@ -1,13 +1,13 @@
 {
   "id": "flexoki",
   "name": "Flexoki",
-  "description": "An ink-friendly, balanced palette designed for legibility.",
+  "description": "An inky, paper-inspired color scheme crafted by Kepano. Meticulously balanced for high legibility on screens, featuring warm cream surfaces, forest greens, and deep earth pigments.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "kepano",
     "url": "https://github.com/kepano/flexoki"
   },
-  "tags": ["palette", "legible", "kepano", "warm"],
+  "tags": ["kepano", "warm", "editorial", "accessible"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFFCF0",
     "baseline-style@@background-primary-alt@@light": "#F2F0E5",

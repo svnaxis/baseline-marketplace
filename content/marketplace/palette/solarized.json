@@ -1,13 +1,13 @@
 {
   "id": "solarized",
   "name": "Solarized",
-  "description": "Precision colors designed for legibility and eye comfort.",
+  "description": "Ethan Schoonover's mathematically calibrated color system. Engineered in CIELAB color space with fixed contrast relationships, delivering exceptional legibility across both light and dark modes.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Ethan Schoonover",
     "url": "https://github.com/altercation/solarized"
   },
-  "tags": ["palette", "legible", "accessible", "comfortable", "developer"],
+  "tags": ["developer", "accessible", "high-contrast"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FDF6E3",
     "baseline-style@@background-primary-alt@@light": "#EEE8D5",

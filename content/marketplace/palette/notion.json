@@ -1,13 +1,13 @@
 {
   "id": "notion",
   "name": "Notion",
-  "description": "Iconic, minimalist grayscale palette of [Notion](https://www.notion.com/).",
+  "description": "The signature grayscale and highlight system from [Notion](https://www.notion.com/). Features subtle tinted backgrounds and clean neutral text that keep complex documents neat and approachable.",
   "createdAt": "2025-09-14",
   "author": {
     "name": "Notion",
     "url": "https://notion.so"
   },
-  "tags": ["palette", "notion", "minimalist", "monochrome", "clean"],
+  "tags": ["notion", "monochrome", "minimal", "editorial"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FFF",
     "baseline-style@@background-primary-alt@@light": "#F9F8F7",

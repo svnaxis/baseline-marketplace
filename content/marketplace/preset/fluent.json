@@ -1,13 +1,13 @@
 {
   "id": "fluent",
   "name": "Fluent",
-  "description": "Modern and clean interface, native Windows look and feel.",
+  "description": "Modeled after Microsoft's Fluent Design System on Windows 11. Incorporates Segoe UI Variable typography, Cascadia Mono code blocks, and subtle surface elevations for a cohesive desktop writing space.",
   "createdAt": "2025-11-04",
   "author": {
     "name": "Alexis C",
     "url": "https://github.com/svnaxis"
   },
-  "tags": ["preset", "professional", "modern", "clean"],
+  "tags": ["windows", "minimal", "developer", "accessible"],
   "styles": {
     "baseline-style@@accented-interface": true,
     "baseline-style@@font-interface-override": "'Segoe UI Variable', 'Segoe UI Variable Text', 'Segoe UI'",

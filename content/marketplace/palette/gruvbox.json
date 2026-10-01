@@ -1,13 +1,13 @@
 {
   "id": "gruvbox",
   "name": "Gruvbox",
-  "description": "Retro, groovy, distinguishable and pleasant for the eyes.",
+  "description": "The classic retro groove palette created by Pavel Pertsev. Delivers warm golden yellows, rust reds, and forest greens against cozy parchment or deep sepia backgrounds.",
   "createdAt": "2025-07-19",
   "author": {
     "name": "Pavel Pertsev",
     "url": "https://github.com/morhetz/gruvbox"
   },
-  "tags": ["palette", "warm", "developer"],
+  "tags": ["developer", "warm", "high-contrast"],
   "styles": {
     "baseline-style@@background-primary@@light": "#FCF2C7",
     "baseline-style@@background-primary-alt@@light": "#F2E6BD",
